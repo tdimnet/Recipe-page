@@ -12,7 +12,7 @@
   --ff-young-serif: "Young Serif", sans-serif;
   --ff-outfit-font: "Outfit", serif;
 
-  --fw-medium: 400;
+  --fw-regular: 400;
   --fw-bold: 600;
   --fw-ultra-bold: 700;
 }
@@ -23,4 +23,17 @@
 
 img {
     width: 100%;
+}
+
+.recipe-name {
+  font-family: var(--ff-young-serif);
+  font-weight: var(--fw-regular);
+  text-transform: capitalize;
+  font-size: 2.25rem;
+}
+
+.recipe-description {
+  font-family: var(--ff-outfit-font);
+  font-weight: var(--fw-regular);
+  color: var(--wenge-brown);
 }
