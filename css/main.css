@@ -35,15 +35,17 @@ img {
   text-transform: capitalize;
 }
 
+.recipe-wrapper {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
 .recipe-description {
   color: var(--wenge-brown);
   font-weight: var(--fw-regular);
 }
 
-.recipe-wrapper {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
 
 .preparation-time-wrapper {
   background-color: var(--rose-white);
