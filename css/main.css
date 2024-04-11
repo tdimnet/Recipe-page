@@ -117,3 +117,28 @@ img {
     font-weight: var(--fw-ultra-bold);
   }
 }
+
+.nutrition-wrapper {
+  h2 {
+    color: var(--dark-raspberry);
+  }
+
+  .nutrition-table {
+    width: 100%;
+    text-align: left;
+  }
+
+  caption {
+    margin-bottom: 1.25rem;
+  }
+
+  th {
+    font-weight: var(--fw-regular);
+    color: var(--wenge-brown);
+  }
+
+  td {
+    font-weight: var(--fw-bold);
+    color: var(--dark-raspberry);
+  }
+}
