@@ -55,6 +55,26 @@ main {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
+
+  @media screen and (min-width: 1024px) {
+    display: grid;
+
+    .recipe-presentation-wrapper {
+      order: 2;
+    }
+
+    .ingredients-wrapper {
+      order: 3;
+    }
+
+    .instructions-wrapper {
+      order: 1;
+    }
+
+    .nutrition-wrapper {
+      order: 4;
+    }
+  }
 }
 
 .recipe-description {
