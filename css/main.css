@@ -126,10 +126,25 @@ img {
   .nutrition-table {
     width: 100%;
     text-align: left;
+    border-collapse: collapse;
+    border-spacing: 1rem;
   }
 
   caption {
     margin-bottom: 1.25rem;
+    text-align: left;
+  }
+
+  tr {
+    margin-bottom: 20px;
+  }
+
+  th,
+  td {
+    border-bottom: 1px solid var(--dark-charcoal);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
   }
 
   th {
