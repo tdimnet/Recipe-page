@@ -100,6 +100,11 @@ main {
     color: var(--dark-raspberry);
   }
 
+  li > span {
+    position: relative;
+    right: -1rem;
+  }
+
   .step-name {
     font-weight: var(--fw-bold);
   }
@@ -127,6 +132,11 @@ main {
   li {
     margin-bottom: .75rem;
   }
+
+  li span {
+    position: relative;
+    right: -1rem;
+  }
 }
 
 .instructions-wrapper {
@@ -147,6 +157,16 @@ main {
   li {
     line-height: 1.5rem;
     margin-bottom: .75rem;
+  }
+
+  li::marker {
+    color: var(--dark-raspberry);
+    font-weight: var(--fw-ultra-bold);
+  }
+
+  .instruction-content {
+    position: relative;
+    right: -1rem;
   }
 
   .instruction-title {
