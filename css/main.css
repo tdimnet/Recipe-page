@@ -35,12 +35,12 @@ img {
 
 main {
   @media screen and (min-width: 1024px) {
-    width: 46rem;
-    margin-left: auto;
-    margin-right: auto;
     background-color: var(--white);
     border-radius: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
+    width: 46rem;
   }
 }
 
@@ -52,9 +52,9 @@ main {
 }
 
 .recipe-wrapper {
+  padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-bottom: 2rem;
 
   @media screen and (min-width: 1024px) {
     display: grid;
@@ -112,17 +112,17 @@ main {
 
 .ingredients-wrapper {
   border-bottom: 1px solid var(--light-grey);
-  padding-bottom: 2rem;
-  margin-bottom: 2rem;
   color: var(--wenge-brown);
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 
   h2 {
     color: var(--dark-raspberry);
   }
 
   ul {
-    padding-left: 1rem;
     margin-bottom: 0;
+    padding-left: 1rem;
   }
 
   li::marker {
@@ -140,18 +140,18 @@ main {
 }
 
 .instructions-wrapper {
-  color: var(--wenge-brown);
   border-bottom: 1px solid var(--light-grey);
-  padding-bottom: 2rem;
+  color: var(--wenge-brown);
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
 
   h2 {
     color: var(--dark-raspberry);
   }
 
   ol {
-    padding-left: 1rem;
     margin-bottom: 0;
+    padding-left: 1rem;
   }
 
   li {
@@ -180,10 +180,10 @@ main {
   }
 
   .nutrition-table {
-    width: 100%;
-    text-align: left;
     border-collapse: collapse;
     border-spacing: 1rem;
+    text-align: left;
+    width: 100%;
   }
 
   caption {
@@ -198,18 +198,18 @@ main {
   th,
   td {
     border-bottom: 1px solid var(--dark-charcoal);
-    padding-top: 1rem;
-    padding-left: 1rem;
     padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
   }
 
   th {
-    font-weight: var(--fw-regular);
     color: var(--wenge-brown);
+    font-weight: var(--fw-regular);
   }
 
   td {
-    font-weight: var(--fw-bold);
     color: var(--dark-raspberry);
+    font-weight: var(--fw-bold);
   }
 }
